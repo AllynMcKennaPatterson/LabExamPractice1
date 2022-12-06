@@ -14,27 +14,27 @@ public class BusinessSuccessTest {
     }
 
     @Test
-    void testName(String name){
+    void testName(){
         assertEquals("Dominos", myBusiness.getName());
     }
 
     @Test
-    void testId(long id){
+    void testId(){
         assertEquals(138943, myBusiness.getId());
     }
 
     @Test
-    void testAddress(String address){
+    void testAddress(){
         assertEquals("44 Woodlands", myBusiness.getAddress());
     }
 
     @Test
-    void testOpenTime(int openTime){
+    void testOpenTime(){
         assertEquals(900, myBusiness.getOpenTime());
     }
 
     @Test
-    void testCloseTime(int closeTime){
+    void testCloseTime(){
         assertEquals(1800, myBusiness.getCloseTime());
     }
 

@@ -79,4 +79,8 @@ public class Business {
             throw new IllegalArgumentException("The closing time must be a valid 24 hr time");
         }
     }
+
+    public static void main(String[] args) {
+        System.out.println("Docker is running this project");
+    }
 }
