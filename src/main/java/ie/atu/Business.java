@@ -83,4 +83,8 @@ public class Business {
     public static void main(String[] args) {
         System.out.println("Docker is running this project");
     }
+
+    public void printSomething(){
+        System.out.println("This is for a test");
+    }
 }
