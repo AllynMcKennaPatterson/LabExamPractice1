@@ -85,6 +85,6 @@ public class Business {
     }
 
     public void printSomething(){
-        System.out.println("This is for a test!");
+        System.out.println("This is for a test!!");
     }
 }
