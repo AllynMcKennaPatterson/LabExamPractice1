@@ -1,5 +1,5 @@
 package ie.atu;
-
+/*
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -37,3 +37,4 @@ public class BusinessFailTest {
         assertEquals("Error: Closing time must be a valid 24hr time", exMessage.getMessage());
     }
 }
+*/
