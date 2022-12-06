@@ -7,6 +7,14 @@ public class Business {
     private int openTime;
     private int closeTime;
 
+    public Business(String name, long id, String address, int openTime, int closeTime) {
+        this.name = name;
+        this.id = id;
+        this.address = address;
+        this.openTime = openTime;
+        this.closeTime = closeTime;
+    }
+
     public String getName() {
         return name;
     }
