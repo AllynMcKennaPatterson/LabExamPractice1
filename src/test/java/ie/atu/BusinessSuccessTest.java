@@ -37,4 +37,5 @@ public class BusinessSuccessTest {
     void testCloseTime(int closeTime){
         assertEquals(1800, myBusiness.getCloseTime());
     }
+
 }
